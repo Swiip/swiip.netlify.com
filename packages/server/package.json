@@ -1,0 +1,18 @@
+{
+  "name": "swiip.netlify.com-server",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "workspaces": {
+    "nohoist": [
+      "**"
+    ]
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "graphql-request": "^1.8.2",
+    "node-fetch": "^2.5.0",
+    "twit": "^2.2.11",
+    "xml2js": "^0.4.19"
+  }
+}

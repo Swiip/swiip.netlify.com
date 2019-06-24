@@ -1,0 +1,21 @@
+{
+  "name": "swiip.netlify.com-client",
+  "version": "1.0.0",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "bundle": "microbundle --external=all --format=es",
+    "build": "node ../build && microbundle --external=all --format=es"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "htm": "^2.1.1",
+    "picostyle": "^2.2.0",
+    "preact": "^10.0.0-beta.1"
+  },
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  }
+}

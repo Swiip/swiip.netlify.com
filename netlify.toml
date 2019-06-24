@@ -1,0 +1,7 @@
+[build]
+  publish = "packages/client/dist/"
+  command = "yarn build"
+  functions = "packages/server/"
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"

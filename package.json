@@ -1,0 +1,31 @@
+{
+  "name": "swiip.netlify.com",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "netlify dev",
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "cd packages/client && yarn build"
+  },
+  "repository": "git@github.com:Swiip/swiip.github.com.git",
+  "author": "Swiip <matthieu.lux@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jest": "^22.5.1",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.7.1",
+    "lerna": "^3.13.4",
+    "netlify": "^2.4.6",
+    "prettier": "^1.17.0"
+  }
+}
